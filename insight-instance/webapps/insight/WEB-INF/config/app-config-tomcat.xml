@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<import resource="classpath:com/springsource/insight/dashboard/app-config-base.xml" />
+	
+	<context:property-placeholder location="file:${insight.base}/conf/insight.properties"
+                                  system-properties-mode="OVERRIDE"
+                                  ignore-unresolvable="true" />
+	
+    <bean id="insightConfig" class="com.springsource.insight.dashboard.config.InsightConfigFactoryBean"  />
+
+    <bean id="gemfireConfig" class="com.springsource.insight.spring.SpelResourceReplacer"
+          p:resource="file:${insight.base}/conf/gemfire-cache.xml" />
+
+    <util:properties id="gemfireProps" location="file:${insight.base}/conf/gemfire.properties"/>
+
+    <import resource="classpath*:com/springsource/insight/repo/app-config-gemfire.xml" />
+
+</beans>

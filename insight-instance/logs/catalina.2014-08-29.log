@@ -1,0 +1,172 @@
+Aug 29, 2014 12:29:37 PM com.springsource.tcserver.security.PropertyDecoder <init>
+INFO: tc Runtime property decoder using memory-based key
+Aug 29, 2014 12:29:38 PM com.springsource.tcserver.security.TcDecoder initCiphers
+INFO: Adding classpath: /usr/local/Cellar/tcserver/3.0.0/libexec/tomcat-7.0.55.A.RELEASE/lib/security/com.springsource.org.bouncycastle.jce-1.46.0.jar to classloader
+Aug 29, 2014 12:29:39 PM com.springsource.tcserver.security.PropertyDecoder <init>
+INFO: tcServer Runtime property decoder has been initialized in 1169 ms
+Aug 29, 2014 12:29:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 29, 2014 12:29:40 PM com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+INFO: Started up JMX registry on 127.0.0.1:6969 in 221 ms
+Aug 29, 2014 12:29:40 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 29, 2014 12:29:40 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Pivotal tc Runtime 3.0.0.RELEASE/7.0.55.A.RELEASE
+Aug 29, 2014 12:29:40 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/mauricemanning/Documents/Dev/code/mmmcc/springproto/tasksproto/insight-instance/webapps/insight.war
+Aug 29, 2014 12:29:41 PM com.springsource.insight.bootstrap.tomcat.TomcatServletContextPatchAspect <init>
+INFO: TomcatServletContextPatchAspect[patching=false]
+Aug 29, 2014 12:29:43 PM com.springsource.insight.collection.strategies.IgnoredContextCollectionStrategy register
+INFO: register(localhost|ROOT) null => true
+Aug 29, 2014 12:29:43 PM com.springsource.insight.collection.strategies.IgnoredContextCollectionStrategy register
+INFO: register(localhost|insight) null => true
+Aug 29, 2014 12:29:43 PM com.springsource.insight.collection.strategies.IgnoredContextCollectionStrategy register
+INFO: register(localhost|manager) null => true
+Aug 29, 2014 12:29:43 PM com.springsource.insight.collection.strategies.CollectionStrategyRunner enable
+INFO: Enabled Strategy com.springsource.insight.collection.strategies.EndPointOnlyCollectionStrategy@ee68cd7c
+Aug 29, 2014 12:29:43 PM com.springsource.insight.collection.strategies.CollectionStrategyRunner enable
+INFO: Enabled Strategy com.springsource.insight.collection.strategies.PrefixExcludeCollectionStrategy@d813cb8b
+Aug 29, 2014 12:29:43 PM com.springsource.insight.collection.strategies.CollectionStrategyRunner enable
+INFO: Enabled Strategy com.springsource.insight.collection.strategies.DisableAgentCollectionStrategy@67691fe4
+Aug 29, 2014 12:29:43 PM com.springsource.insight.collection.strategies.CollectionStrategyRunner enable
+INFO: Enabled Strategy com.springsource.insight.collection.strategies.IgnoredContextCollectionStrategy@c517c1be
+Aug 29, 2014 12:29:43 PM com.springsource.insight.collection.strategies.CollectionStrategyRunner enable
+INFO: Enabled Strategy com.springsource.insight.collection.strategies.DisablePluginCollectionStrategy@83b6027d
+Aug 29, 2014 12:29:54 PM com.springsource.insight.agent.dispatch.transport.impl.jmx.JmxCollectionDataTransportReceiver afterPropertiesSet
+INFO: afterPropertiesSet(null-insight.agent:type=transport,flavor=jmx[listener]) using jmx://localhost?mbeanName='insight.agent:type=transport,flavor=jmx'&attribute='listener'
+Aug 29, 2014 12:29:54 PM com.springsource.insight.agent.dispatch.encode.impl.noop.NoopEncoderFactory setEncoderURI
+INFO: setEncoderURI(noop://ignored)
+Aug 29, 2014 12:29:54 PM com.springsource.insight.agent.dispatch.transport.impl.jmx.JmxCollectionDataTransportReceiver afterPropertiesSet
+INFO: afterPropertiesSet(null-insight.agent:type=transport,flavor=jmx[listener]) encoder=noop://ignored
+Aug 29, 2014 12:29:54 PM com.springsource.insight.agent.dispatch.transport.impl.jmx.JmxCollectionDataTransportReceiver postRegister
+INFO: postRegister(null-insight.agent:type=transport,flavor=jmx[listener]) registered
+Aug 29, 2014 12:29:54 PM com.springsource.insight.agent.dispatch.transport.impl.jmx.JmxCollectionDataTransportReceiver afterPropertiesSet
+INFO: afterPropertiesSet(null-insight.agent:type=transport,flavor=jmx[listener]) mbean registered
+Aug 29, 2014 12:29:54 PM com.springsource.insight.agent.dispatch.transport.impl.jmx.JmxCollectionDataTransportReceiver setAttribute
+INFO: setAttribute(null-insight.agent:type=transport,flavor=jmx[listener]) registered peer listener
+Aug 29, 2014 12:29:54 PM com.springsource.insight.agent.dispatch.transport.impl.jmx.JmxCollectionDataTransportFactory getPeerListener
+INFO: lookupRegisteredListener(DefaultDomain)[null-insight.agent:type=transport,flavor=jmx[listener]] registered
+Aug 29, 2014 12:29:54 PM com.springsource.insight.agent.dispatch.transport.impl.jmx.JmxCollectionDataTransportFactory createCollectionDataTransport
+INFO: initializeFactory(null-insight.agent:type=transport,flavor=jmx[listener]) lookup successful
+Aug 29, 2014 12:29:54 PM com.springsource.insight.agent.dispatch.transport.impl.http.HttpTransportReceiver afterPropertiesSet
+INFO: afterPropertiesSet() maxAgents=1024;maxAge=120 sec.
+Aug 29, 2014 12:29:54 PM com.springsource.insight.agent.dispatch.transport.impl.http.HttpTransportReceiver run
+INFO: Started...
+Aug 29, 2014 12:29:56 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 29, 2014 12:30:13 PM com.springsource.insight.DispatcherAgentClassloadingHelper initializeAutomaticListeners
+INFO: initializeAutomaticListeners(com.springsource.insight.agent.dispatch.DispatcherAgentLifecycleEventListener@5aad591f) registered
+Aug 29, 2014 12:30:13 PM com.springsource.insight.agent.dispatch.DispatcherAgentLifecycleEventListener notifyApplicationLifecycle
+INFO: notifyApplicationLifecycle(localhost|insight)[START]
+Aug 29, 2014 12:30:13 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /Users/mauricemanning/Documents/Dev/code/mmmcc/springproto/tasksproto/insight-instance/webapps/insight.war has finished in 32,617 ms
+Aug 29, 2014 12:30:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mauricemanning/Documents/Dev/code/mmmcc/springproto/tasksproto/insight-instance/webapps/manager
+Aug 29, 2014 12:30:13 PM com.springsource.insight.agent.dispatch.DispatcherAgentLifecycleEventListener notifyApplicationLifecycle
+INFO: notifyApplicationLifecycle(localhost|manager)[START]
+Aug 29, 2014 12:30:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/mauricemanning/Documents/Dev/code/mmmcc/springproto/tasksproto/insight-instance/webapps/manager has finished in 66 ms
+Aug 29, 2014 12:30:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mauricemanning/Documents/Dev/code/mmmcc/springproto/tasksproto/insight-instance/webapps/ROOT
+Aug 29, 2014 12:30:13 PM com.springsource.insight.agent.dispatch.DispatcherAgentLifecycleEventListener notifyApplicationLifecycle
+INFO: notifyApplicationLifecycle(localhost|ROOT)[START]
+Aug 29, 2014 12:30:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/mauricemanning/Documents/Dev/code/mmmcc/springproto/tasksproto/insight-instance/webapps/ROOT has finished in 36 ms
+Aug 29, 2014 12:30:13 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 29, 2014 12:40:51 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Aug 29, 2014 12:40:51 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 29, 2014 12:40:51 PM com.springsource.insight.agent.dispatch.DispatcherAgentLifecycleEventListener notifyApplicationLifecycle
+INFO: notifyApplicationLifecycle(localhost|ROOT)[STOP]
+Aug 29, 2014 12:40:52 PM com.springsource.insight.agent.dispatch.DispatcherAgentLifecycleEventListener notifyApplicationLifecycle
+INFO: notifyApplicationLifecycle(localhost|manager)[STOP]
+Aug 29, 2014 12:40:57 PM com.springsource.insight.agent.dispatch.transport.impl.http.HttpTransportReceiver destroy
+INFO: Successfully stoped
+Aug 29, 2014 12:40:57 PM com.springsource.insight.agent.dispatch.transport.impl.http.HttpTransportReceiver run
+INFO: Interrupted after 0 cycles
+Aug 29, 2014 12:40:57 PM com.springsource.insight.agent.dispatch.transport.impl.http.HttpTransportReceiver run
+INFO: Exited...
+Aug 29, 2014 12:40:57 PM com.springsource.insight.agent.dispatch.transport.impl.jmx.JmxCollectionDataTransportReceiver preDeregister
+INFO: preDeregister(null-insight.agent:type=transport,flavor=jmx[listener])
+Aug 29, 2014 12:40:57 PM com.springsource.insight.agent.dispatch.transport.impl.jmx.JmxCollectionDataTransportReceiver postDeregister
+INFO: postDeregister(null-insight.agent:type=transport,flavor=jmx[listener])
+Aug 29, 2014 12:40:57 PM com.springsource.insight.agent.dispatch.transport.impl.jmx.JmxCollectionDataTransportReceiver destroy
+INFO: destroy(null-insight.agent:type=transport,flavor=jmx[listener]) destroyed
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/insight] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/insight] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/insight] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/insight] appears to have started a thread named [State Logger Consumer Thread] but has failed to stop it. This is very likely to create a memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/insight] appears to have started a thread named [insight-HttpTransportReceiver-pool-1-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/insight] appears to have started a thread named [AgentRepo] but has failed to stop it. This is very likely to create a memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/insight] appears to have started a thread named [purgeThread] but has failed to stop it. This is very likely to create a memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/insight] appears to have started a thread named [SystemFailure WatchDog] but has failed to stop it. This is very likely to create a memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/insight] appears to have started a thread named [SystemFailure Proctor] but has failed to stop it. This is very likely to create a memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@266dbc12]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@6e565573]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [com.gemstone.gemfire.internal.cache.EventID$1] (value [com.gemstone.gemfire.internal.cache.EventID$1@6604299c]) and a value of type [com.gemstone.gemfire.internal.cache.EventID.ThreadAndSequenceIDWrapper] (value [com.gemstone.gemfire.internal.cache.EventID$ThreadAndSequenceIDWrapper@1b47f517]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@112bc6ff]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@51159827]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@60b85207]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@65117b2c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5eadb98a]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@5f704395]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@43651c26]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@231b255b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4b318b5e]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@21b4eee3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6daf8a5e]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [org.springframework.security.core.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [com.gemstone.gemfire.internal.cache.EventID$1] (value [com.gemstone.gemfire.internal.cache.EventID$1@6604299c]) and a value of type [com.gemstone.gemfire.internal.cache.EventID.ThreadAndSequenceIDWrapper] (value [com.gemstone.gemfire.internal.cache.EventID$ThreadAndSequenceIDWrapper@2494ccd9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@266dbc12]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@2514cd52]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@78b3d582]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@668687b6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@a37f250]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@5f05676d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [com.gemstone.gemfire.distributed.internal.ReplyProcessor21$1] (value [com.gemstone.gemfire.distributed.internal.ReplyProcessor21$1@5bc955d7]) and a value of type [java.lang.Boolean] (value [false]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7f22c554]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@43c94f01]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5561ed6b]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@102a3798]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@43a7e472]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@43871b11]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@112bc6ff]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@5b021bb9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@676a3d5c]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@6fe2980e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@60b85207]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@56cf885]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@352fe68b]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@5bc8caf4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5eadb98a]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@5b84883f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@f56460f]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@69118aa6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7ea5ce2d]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@37832d50]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@513fba9]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@62ef16d9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4b318b5e]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@3ec5334d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/insight] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4ab246d]) and a value of type [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl.ThreadStorage] (value [com.gemstone.gemfire.internal.stats50.Atomic50StatisticsImpl$ThreadStorage@7fe4727f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 29, 2014 12:40:57 PM com.springsource.insight.agent.dispatch.DispatcherAgentLifecycleEventListener notifyApplicationLifecycle
+INFO: notifyApplicationLifecycle(localhost|insight)[STOP]
+Aug 29, 2014 12:40:57 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Aug 29, 2014 12:40:57 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]

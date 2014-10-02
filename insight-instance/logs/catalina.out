@@ -1,0 +1,6 @@
+objc[65748]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/bin/java and /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/libinstrument.dylib. One of the two will be used. Which one is undefined.
+ASPECTJ: aspectj.overweaving=true: overweaving switched ON
+Aug 29, 2014 12:29:40 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2784 ms
+Aug 29, 2014 12:30:13 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 32953 ms

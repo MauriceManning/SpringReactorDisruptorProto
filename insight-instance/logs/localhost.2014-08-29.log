@@ -1,0 +1,16 @@
+Aug 29, 2014 12:29:43 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 29, 2014 12:29:43 PM org.apache.catalina.core.ApplicationContext log
+INFO: Set web app root system property: 'insight' = [/Users/mauricemanning/Documents/Dev/code/mmmcc/springproto/tasksproto/insight-instance/webapps/insight/]
+Aug 29, 2014 12:29:43 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing log4j from [file:/Users/mauricemanning/Documents/Dev/code/mmmcc/springproto/tasksproto/insight-instance/insight/conf/log4j.xml]
+Aug 29, 2014 12:29:43 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Aug 29, 2014 12:30:11 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'Spring MVC Dispatcher Servlet'
+Aug 29, 2014 12:40:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'Spring MVC Dispatcher Servlet'
+Aug 29, 2014 12:40:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Aug 29, 2014 12:40:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: Shutting down log4j

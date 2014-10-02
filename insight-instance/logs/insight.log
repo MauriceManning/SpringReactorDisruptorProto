@@ -1,0 +1,153 @@
+2014-08-29 12:29:49,581 INFO  [liquibase][localhost-startStop-1] - Successfully acquired change log lock
+2014-08-29 12:29:49,643 INFO  [liquibase][localhost-startStop-1] - Creating database history table with name: DATABASECHANGELOG
+2014-08-29 12:29:49,654 INFO  [liquibase][localhost-startStop-1] - Reading from DATABASECHANGELOG
+2014-08-29 12:29:49,656 INFO  [liquibase][localhost-startStop-1] - Reading from DATABASECHANGELOG
+2014-08-29 12:29:49,710 INFO  [liquibase][localhost-startStop-1] - ChangeSet classpath:com/springsource/insight/repo/liquibase-db.xml::createConfigsTable::insightdb ran successfully in 8ms
+2014-08-29 12:29:49,738 INFO  [liquibase][localhost-startStop-1] - ChangeSet classpath:com/springsource/insight/repo/liquibase-db.xml::createTraceTagRulesTable::insightdb ran successfully in 17ms
+2014-08-29 12:29:49,754 INFO  [liquibase][localhost-startStop-1] - ChangeSet classpath:com/springsource/insight/repo/liquibase-db.xml::createTraceSummariesTable::insightdb ran successfully in 9ms
+2014-08-29 12:29:49,765 INFO  [liquibase][localhost-startStop-1] - ChangeSet classpath:com/springsource/insight/repo/liquibase-db.xml::createTraceSummariesEndPointIndex::insightdb ran successfully in 3ms
+2014-08-29 12:29:49,773 INFO  [liquibase][localhost-startStop-1] - ChangeSet classpath:com/springsource/insight/repo/liquibase-db.xml::createTagsTable::insightdb ran successfully in 4ms
+2014-08-29 12:29:49,779 INFO  [liquibase][localhost-startStop-1] - ChangeSet classpath:com/springsource/insight/repo/liquibase-db.xml::createTraceTagsTable::insightdb ran successfully in 3ms
+2014-08-29 12:29:49,785 INFO  [liquibase][localhost-startStop-1] - ChangeSet classpath:com/springsource/insight/repo/liquibase-db.xml::createTraceSummaryIndexes::insightdb ran successfully in 3ms
+2014-08-29 12:29:49,789 INFO  [liquibase][localhost-startStop-1] - Successfully released change log lock
+2014-08-29 12:29:49,802 INFO  [liquibase][localhost-startStop-1] - Successfully released change log lock
+2014-08-29 12:29:51,495 WARN  [org.hibernate.cache.impl.bridge.EntityRegionAdapter][localhost-startStop-1] - read-only cache configured for mutable entity [com.springsource.insight.repo.tag.persist.PersistedTag]
+2014-08-29 12:29:55,445 INFO  [com.springsource.insight.repo.agent.AgentRepo][localhost-startStop-1] - loadExclusionFilters(global) trace.exclude.path.css: /**/*.css
+2014-08-29 12:29:55,445 INFO  [com.springsource.insight.repo.agent.AgentRepo][localhost-startStop-1] - loadExclusionFilters(global) trace.exclude.path.gif: /**/*.gif
+2014-08-29 12:29:55,445 INFO  [com.springsource.insight.repo.agent.AgentRepo][localhost-startStop-1] - loadExclusionFilters(global) trace.exclude.path.ico: /**/*.ico
+2014-08-29 12:29:55,445 INFO  [com.springsource.insight.repo.agent.AgentRepo][localhost-startStop-1] - loadExclusionFilters(global) trace.exclude.path.jpeg: /**/*.jpeg
+2014-08-29 12:29:55,445 INFO  [com.springsource.insight.repo.agent.AgentRepo][localhost-startStop-1] - loadExclusionFilters(global) trace.exclude.path.jpg: /**/*.jpg
+2014-08-29 12:29:55,445 INFO  [com.springsource.insight.repo.agent.AgentRepo][localhost-startStop-1] - loadExclusionFilters(global) trace.exclude.path.js: /**/*.js
+2014-08-29 12:29:55,445 INFO  [com.springsource.insight.repo.agent.AgentRepo][localhost-startStop-1] - loadExclusionFilters(global) trace.exclude.path.png: /**/*.png
+2014-08-29 12:29:56,423 INFO  [com.springsource.insight.repo.agent.AgentRepo][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor#3ed9556a-1] - initGlobalSettingsPersistence() no initial global settings
+2014-08-29 12:29:56,431 INFO  [com.springsource.insight.repo.agent.AgentRepo][AgentRepo] - Started...
+2014-08-29 12:29:56,460 INFO  [com.springsource.insight.repo.trace.command.StoreTraceProcessor][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor#3ed9556a-1] - addCollectionDataTransportListener(jmxDispatchReceiver) added direct listener
+2014-08-29 12:29:56,460 INFO  [com.springsource.insight.repo.trace.command.StoreTraceProcessor][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor#3ed9556a-1] - addCollectionDataTransportListener(httpDispatchReceiver) added direct listener
+2014-08-29 12:29:56,460 INFO  [com.springsource.insight.repo.trace.command.v18.StoreTraceProcessor][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor#3ed9556a-1] - addCollectionDataTransportListener(jmxDispatchReceiver) added direct listener
+2014-08-29 12:29:56,461 INFO  [com.springsource.insight.repo.trace.command.v18.StoreTraceProcessor][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor#3ed9556a-1] - addCollectionDataTransportListener(httpDispatchReceiver) added direct listener
+2014-08-29 12:29:56,827 INFO  [com.springsource.insight.repo.application.InsightApplication][insightScheduler-1] - 
+INSIGHT STATISTICS START
+	agents/connects: 0
+	agents/count: 0
+	agents/disconnects: 0
+	agents/model-errors: 0
+	agents/sync-events: 0
+	db/CONFIGS: 0
+	db/DATABASECHANGELOG: 7
+	db/DATABASECHANGELOGLOCK: 1
+	db/TAGS: 0
+	db/TRACE_SUMMARIES: 0
+	db/TRACE_SUMMARY_TAG: 0
+	db/TRACE_TAG_RULES: 0
+	gemfire/MemberAssociations: 0
+	gemfire/Metric: 0
+	gemfire/MetricState: 0
+	gemfire/Resource: 1
+	gemfire/Trace: 0
+	hibernate/2Cache/com.springsource.insight.repo.config.persist.ConfigEntry/accesses: 0
+	hibernate/2Cache/com.springsource.insight.repo.config.persist.ConfigEntry/size: 0
+	hibernate/2Cache/com.springsource.insight.repo.tag.persist.PersistedTag/accesses: 0
+	hibernate/2Cache/com.springsource.insight.repo.tag.persist.PersistedTag/size: 0
+	hibernate/2Cache/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRule/accesses: 0
+	hibernate/2Cache/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRule/size: 0
+	hibernate/2Cache/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRuleList.rules/accesses: 0
+	hibernate/2Cache/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRuleList.rules/size: 0
+	hibernate/2Cache/org.hibernate.cache.StandardQueryCache/accesses: 0
+	hibernate/2Cache/org.hibernate.cache.StandardQueryCache/size: 0
+	hibernate/2Cache/org.hibernate.cache.UpdateTimestampsCache/accesses: 0
+	hibernate/2Cache/org.hibernate.cache.UpdateTimestampsCache/size: 0
+	hibernate/2Cache/total/accesses: 0
+	hibernate/collection/com.springsource.insight.repo.trace.persist.PersistedTraceSummary.tags/fetches: 0
+	hibernate/collection/com.springsource.insight.repo.trace.persist.PersistedTraceSummary.tags/loads: 0
+	hibernate/collection/com.springsource.insight.repo.trace.persist.PersistedTraceSummary.tags/recreates: 0
+	hibernate/collection/com.springsource.insight.repo.trace.persist.PersistedTraceSummary.tags/removes: 0
+	hibernate/collection/com.springsource.insight.repo.trace.persist.PersistedTraceSummary.tags/update: 0
+	hibernate/collection/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRuleList.rules/fetches: 0
+	hibernate/collection/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRuleList.rules/loads: 0
+	hibernate/collection/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRuleList.rules/recreates: 0
+	hibernate/collection/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRuleList.rules/removes: 0
+	hibernate/collection/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRuleList.rules/update: 0
+	hibernate/collection/total/fetches: 0
+	hibernate/collection/total/loads: 0
+	hibernate/collection/total/recreates: 0
+	hibernate/collection/total/removes: 0
+	hibernate/collection/total/updates: 0
+	hibernate/entity/com.springsource.insight.repo.config.persist.ConfigEntry/deletes: 0
+	hibernate/entity/com.springsource.insight.repo.config.persist.ConfigEntry/fetches: 0
+	hibernate/entity/com.springsource.insight.repo.config.persist.ConfigEntry/inserts: 0
+	hibernate/entity/com.springsource.insight.repo.config.persist.ConfigEntry/loads: 0
+	hibernate/entity/com.springsource.insight.repo.config.persist.ConfigEntry/updates: 0
+	hibernate/entity/com.springsource.insight.repo.tag.persist.PersistedTag/deletes: 0
+	hibernate/entity/com.springsource.insight.repo.tag.persist.PersistedTag/fetches: 0
+	hibernate/entity/com.springsource.insight.repo.tag.persist.PersistedTag/inserts: 0
+	hibernate/entity/com.springsource.insight.repo.tag.persist.PersistedTag/loads: 0
+	hibernate/entity/com.springsource.insight.repo.tag.persist.PersistedTag/updates: 0
+	hibernate/entity/com.springsource.insight.repo.trace.persist.PersistedTraceSummary/deletes: 0
+	hibernate/entity/com.springsource.insight.repo.trace.persist.PersistedTraceSummary/fetches: 0
+	hibernate/entity/com.springsource.insight.repo.trace.persist.PersistedTraceSummary/inserts: 0
+	hibernate/entity/com.springsource.insight.repo.trace.persist.PersistedTraceSummary/loads: 0
+	hibernate/entity/com.springsource.insight.repo.trace.persist.PersistedTraceSummary/updates: 0
+	hibernate/entity/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRule/deletes: 0
+	hibernate/entity/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRule/fetches: 0
+	hibernate/entity/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRule/inserts: 0
+	hibernate/entity/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRule/loads: 0
+	hibernate/entity/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRule/updates: 0
+	hibernate/entity/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRuleList/deletes: 0
+	hibernate/entity/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRuleList/fetches: 0
+	hibernate/entity/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRuleList/inserts: 0
+	hibernate/entity/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRuleList/loads: 0
+	hibernate/entity/com.springsource.insight.repo.trace.tag.persist.PersistedTraceTagRuleList/updates: 0
+	hibernate/entity/total/deletes: 0
+	hibernate/entity/total/fetches: 0
+	hibernate/entity/total/inserts: 0
+	hibernate/entity/total/loads: 0
+	hibernate/entity/total/updates: 0
+	hibernate/misc/closeStatements: 7
+	hibernate/misc/connectCount: 1
+	hibernate/misc/flushes: 0
+	hibernate/misc/optimisticFailures: 0
+	hibernate/misc/preparedStatements: 7
+	hibernate/misc/queries: 7
+	hibernate/misc/queryMaxTime: 42
+	hibernate/qCache/accesses: 0
+	hibernate/session/closes: 2
+	hibernate/session/opens: 2
+	hibernate/tx/successful: 1
+	hibernate/tx/total: 1
+	jvm/cpu/availableProcessors: 8
+	jvm/mem/freeMemory: 220138440
+	jvm/mem/heap: 288420920
+	jvm/mem/maxMemory: 954728448
+	jvm/mem/nonHeap: 68527680
+	jvm/mem/pool/Code_Cache/peak: 7316032
+	jvm/mem/pool/Code_Cache/usage: 7315264
+	jvm/mem/pool/PS_Eden_Space/peak: 326107136
+	jvm/mem/pool/PS_Eden_Space/usage: 125148184
+	jvm/mem/pool/PS_Old_Gen/peak: 156027944
+	jvm/mem/pool/PS_Old_Gen/usage: 156027944
+	jvm/mem/pool/PS_Perm_Gen/peak: 61214528
+	jvm/mem/pool/PS_Perm_Gen/usage: 61214528
+	jvm/mem/pool/PS_Survivor_Space/peak: 19324512
+	jvm/mem/pool/PS_Survivor_Space/usage: 7244792
+	jvm/mem/totalMemory: 508559360
+	jvm/uptime: 20986
+	local/trace/executor/activeCount: 0
+	local/trace/executor/completedTaskCount: 0
+	local/trace/executor/corePoolSize: 1
+	local/trace/executor/maxPoolSize: 1
+	local/trace/executor/queueLength: 0
+	local/trace/executor/taskCount: 0
+	memory/Metric/get: 0
+	memory/Metric/put: 0
+	memory/Metric/remove: 0
+	memory/MetricState/get: 0
+	memory/MetricState/put: 0
+	memory/MetricState/remove: 0
+	traces/creator/failures: 0
+	traces/creator/rejections: 0
+	traces/creator/traces: 0
+INSIGHT STATISTICS END
+
+2014-08-29 12:29:56,875 INFO  [com.springsource.insight.repo.purge.IncrementalPurgerImpl][purgeThread] - Completed incremental purge of 1 resources
+2014-08-29 12:40:57,045 WARN  [com.springsource.insight.dashboard.ExecutorTraceCreator][localhost-startStop-2] - Forcibly shutting down worker threads which failed to exit
+2014-08-29 12:40:57,047 INFO  [com.springsource.insight.repo.agent.AgentRepo][localhost-startStop-2] - Update task successfully stoped
